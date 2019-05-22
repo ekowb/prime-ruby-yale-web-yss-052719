@@ -9,10 +9,15 @@ def prime?(int)
     counter = 0
     num_array.each do |element|
       if int % element == 0
-        break
-        return false
+        counter = counter + 1
+      else
+        counter = counter + 0
       end
     end
-    return true
+    if counter = 0
+      return true
+    else
+      return false
+    end
   end
 end
