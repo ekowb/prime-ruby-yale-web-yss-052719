@@ -13,8 +13,9 @@ def prime?(int)
         return false
         break
       else
-        return true
+        counter = counter
       end
     end
+    return true
   end
 end
