@@ -5,7 +5,7 @@ def prime?(int)
   elsif int == 2
     return true
   else
-    num_array = [*2...int - 1]
+    num_array = [*2..int - 1]
     counter = 0
     num_array.each do |element|
       # if the number is divisible by one lower than it add 1 to counter
