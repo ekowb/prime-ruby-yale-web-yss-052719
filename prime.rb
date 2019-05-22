@@ -4,13 +4,13 @@ def prime?(int)
     return false
   elsif int == 2
     return true
-  elsif int > 2
+  else
     num_array = [*2...int - 1]
+    counter = 0
     num_array.each do |element|
       if int % element == 0
         break
         return false
-      end
-      return true
-    end
-  end
+      else
+
+end
