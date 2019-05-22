@@ -11,6 +11,7 @@ def prime?(int)
       # if the number is divisible by one lower than it add 1 to counter
       if int % element == 0
         counter = counter + 1
+        # otherwise it stays the same
       else
         counter = counter + 0
       end
