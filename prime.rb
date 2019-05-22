@@ -10,13 +10,13 @@ def prime?(int)
     num_array.each do |element|
       # if the number is divisible by one lower than it add 1 to counter
       if int % element == 0
-        counter = counter + 1
+        counter == counter + 1
         # otherwise it stays the same
       else
-        counter = counter + 0
+        counter == counter + 0
       end
     end
-    if counter = 0
+    if counter == 0
       return true
     else
       return false
