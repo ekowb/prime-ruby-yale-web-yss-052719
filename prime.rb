@@ -11,6 +11,7 @@ def prime?(int)
       if int % element == 0
         break
         return false
-      else
-
+      end
+    end
+    return true
 end
